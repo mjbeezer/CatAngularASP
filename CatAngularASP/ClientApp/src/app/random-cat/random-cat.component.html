@@ -1,0 +1,4 @@
+<div *ngIf="randyCat.length > 0">
+  <img height="300px" width="auto" src="{{ randyCat[0].url }}">
+  <button (click)="addToFavorites([randyCat[0].id])">Add to Favorites</button>
+</div>
